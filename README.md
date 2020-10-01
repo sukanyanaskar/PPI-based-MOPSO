@@ -1,13 +1,25 @@
-# Protein-protein-interaction-based-multi-objective particle-swarm-optimization
+# PPI-based-MOPSO
+A Multi-objective based PSO Approach for Inferring Pathway Activity utilizing Protein Interactions
 
-Author :- Pratik Dutta, Sriparna Saha and Sukanya Naskar
+## This is the readme file that contains the guidelines and information about the compilation of the code of the following paper
+
+**Paper Name:-** [A Multi-objective based PSO Approach for Inferring Pathway Activity utilizing Protein Interactions]()
+
+- **Authors:** Pratik Dutta<sup>1</sup>, Sriparna Saha<sup>1</sup> and Sukanya Naskar<sup>2</sup>.
+- **Affiliation:** <sup>1</sup>Department of Computer Science and Engineering, Indian Institute of Technology Patna; <sup>2</sup>Department of Information Technology, Indian Institute of Engineering Science and Technology Shibpur.  
+- **Accepted:(26/06/2020):** [Multimedia Tools and Applications, Springer](https://www.springer.com/journal/11042/)
 
 
-Multi-Objective Particle Swarm Optimization , as the name suggests deals with multiple objective functions alongside the PSO method to find the non-redundant particles from a population of given particles.
+
+
+
+Requirements : - Python 2.7, Numpy
+
+<b>Multi-Objective Particle Swarm Optimization</b> , as the name suggests deals with multiple objective functions alongside the PSO method to find the non-redundant particles from a population of given particles.
 
 This code is an implementation of MultiObjective Particle Swarm Optimization algorithm based on Crowding Distance values.
 
-MOPSO_MAIN contains the main function to execute the process.
+<b>MOPSO_MAIN</b> contains the main function to execute the process.
 
 At the very beginning , swarm size , archive size and number of iterations have been declared.
 
@@ -36,4 +48,10 @@ Computation of crowding distance consists of three steps --
 Correspondingly, the Archive is again updated to insert new non-dominated particles in the archive
 
 The Velocity , Position, personal Best Values of each particle in the population is updated subsequently.
+
+
+
+## Contribution
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
 
